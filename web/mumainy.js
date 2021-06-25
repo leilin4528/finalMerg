@@ -67,7 +67,6 @@ function onPlayerReady(event){
 			for (let i = 0; i < x.length; i++) {
 				playTime[i]=x[i]*15;
 			}
-			$("h2").text(x);
 			//playTime=[15,30,60,75,90];
 			s=1;
 			player.loadVideoById({
